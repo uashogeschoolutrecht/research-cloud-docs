@@ -6,7 +6,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Research Cloud docs",
-  tagline: "Technical documentation for researchers at Hogeschool Utrecht using Research Cloud.",
+  tagline:
+    "Technical documentation for researchers at Hogeschool Utrecht using Research Cloud.",
   favicon: "img/favicon-32x32.png",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -46,7 +47,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/uashogeschoolutrecht/research-cloud-docs/",
+            "https://github.com/uashogeschoolutrecht/research-cloud-docs/blob/main/",
         },
         blog: false,
         theme: {
