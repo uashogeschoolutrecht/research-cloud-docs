@@ -16,15 +16,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://uashogeschoolutrecht.github.io/",
+  url: "https://research-it.hu.nl/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/research-cloud-docs/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "uashogeschoolutrecht", // Usually your GitHub org/user name.
-  projectName: "/research-cloud-docs/", // Usually your repo name.
+  projectName: "research-cloud-docs", // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: "throw",
@@ -80,24 +80,6 @@ const config: Config = {
         src: "img/hu-logo-small.svg",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "homeSidebar",
-          position: "left",
-          label: "Home",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "onboardingSidebar",
-          position: "left",
-          label: "Onboarding",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "workspacesSidebar",
-          position: "left",
-          label: "Workspaces",
-        },
         {
           href: "https://github.com/uashogeschoolutrecht/research-cloud-docs/",
           label: "GitHub",
