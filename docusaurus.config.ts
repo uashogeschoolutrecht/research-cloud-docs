@@ -73,6 +73,11 @@ const config: Config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
+    announcementBar: {
+      id: "site-update",
+      content: `🚧 Deze documentatie wordt momenteel bijgewerkt. Volg de voortgang op <a href="https://github.com/uashogeschoolutrecht/research-cloud-docs">GitHub</a>.`,
+      isCloseable: true,
+    },
     navbar: {
       title: "Research Cloud docs",
       logo: {
