@@ -81,8 +81,9 @@ const config: Config = {
       },
       items: [
         {
-          href: "https://github.com/uashogeschoolutrecht/research-cloud-docs/",
-          label: "GitHub",
+          href: "https://github.com/uashogeschoolutrecht/research-cloud-docs",
+          className: "header-github-link",
+          "aria-label": "GitHub repository",
           position: "right",
         },
       ],

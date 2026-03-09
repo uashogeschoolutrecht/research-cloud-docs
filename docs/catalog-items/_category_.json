@@ -1,0 +1,8 @@
+{
+  "label": "catalogus items",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "catalog-items/overview"
+  }
+}
